@@ -1,0 +1,31 @@
+.sessao2{
+    padding: 0 2%;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sessao2 h2{
+    color: #472663;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.sessao2 p{
+    margin-top: 30px;
+    max-width: 900px;
+}
+
+.containerr{
+    max-width: 800px;
+}
+
+.containerr img{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    display: inline-block;
+}

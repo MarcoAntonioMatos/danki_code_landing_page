@@ -1,0 +1,27 @@
+footer{
+    padding: 40px 2%;
+    background-color: #192123;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container p{
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width: 580px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container p {
+        margin: 10px 0;
+    }
+}

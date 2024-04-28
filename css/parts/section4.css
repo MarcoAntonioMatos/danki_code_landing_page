@@ -1,0 +1,105 @@
+.section4{
+    background-color: #462563;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding:0 10px;
+}
+
+.form h2{
+    font-size: 25px;
+    
+}
+
+.form p{
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    padding: 10px 0;
+}
+
+.form input[type=text], input[type=email]{
+    width: 100%;
+    max-width: 480px;
+    height: 50px;
+    padding-left: 8px;
+    line-height: 50px;
+    border: 1px solid black;
+}
+
+.form textarea{
+    width: 100%;
+    margin-top: 10px;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid black;
+    height: 160px;
+}
+
+.form input[type=submit]{
+    background-color: #FF603D;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.map-wraper{
+    color: white;
+}
+
+.map-wraper h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.map{
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid black ;
+}
+
+@media screen and (max-width: 768px) {
+    .section4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form input[type=submit]{
+        margin-top: 15px;
+        align-self: center;
+    }
+
+    .map-wraper h2{
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    
+}
